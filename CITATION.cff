@@ -21,3 +21,12 @@ keywords:
   - replication package
 license: CC-BY-4.0
 repository-code: "https://github.com/alexandre-zatti/slr-code-agent-memory"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19463131
+    description: "Zenodo concept DOI (resolves to the latest version)"
+  - type: doi
+    value: 10.5281/zenodo.19463132
+    description: "Zenodo DOI for v1.0.0"
+version: "1.0.0"
+date-released: "2026-04-07"

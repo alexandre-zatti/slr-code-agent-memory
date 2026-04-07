@@ -1,5 +1,7 @@
 # Knowledge Persistence Architectures for AI-Based Coding Agents — SLR Replication Package
 
+[![DOI](https://zenodo.org/badge/1204331593.svg)](https://doi.org/10.5281/zenodo.19463131)
+
 Replication package for a systematic literature review (PRISMA 2020) on
 knowledge persistence architectures for AI-based coding agents. This
 repository contains the protocol, search strategy, raw search results,
@@ -10,6 +12,7 @@ studies), the synthesis matrix, and the PRISMA flow diagram source.
 **Affiliation:** Programa de Pós-Graduação em Computação Aplicada (PPGPCA),
 Universidade Federal da Fronteira Sul (UFFS)
 **License:** [CC-BY-4.0](LICENSE)
+**Archived on Zenodo:** [10.5281/zenodo.19463131](https://doi.org/10.5281/zenodo.19463131)
 
 ---
 
@@ -187,16 +190,22 @@ populated with the counts above.
 
 ```bibtex
 @misc{zatti2026slr,
-  author       = {Zatti, Alexandre and Feitosa, Samuel},
-  title        = {{Knowledge Persistence Architectures for AI-Based
-                   Coding Agents: A Systematic Literature Review
-                   Replication Package}},
-  year         = {2026},
-  howpublished = {\url{https://github.com/alexandre-zatti/slr-code-agent-memory}},
+  author    = {Zatti, Alexandre and Feitosa, Samuel},
+  title     = {{Knowledge Persistence Architectures for AI-Based
+                Coding Agents: A Systematic Literature Review
+                Replication Package}},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19463131},
+  url       = {https://doi.org/10.5281/zenodo.19463131},
 }
 ```
 
-A DOI via Zenodo will be added upon first release.
+The DOI above is the Zenodo *concept DOI* and always resolves to the
+latest released version. To cite a specific release, use the
+version-specific DOI shown on the
+[Zenodo record page](https://doi.org/10.5281/zenodo.19463131)
+(for example, `10.5281/zenodo.19463132` for v1.0.0).
 
 ---
 
