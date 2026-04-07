@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it as below."
+title: "Knowledge Persistence Architectures for AI-Based Coding Agents: A Systematic Literature Review Replication Package"
+abstract: "Replication package for a systematic literature review (PRISMA 2020) on knowledge persistence architectures for AI-based coding agents. Contains the protocol, search strategy, raw search exports, screening decisions, structured extraction data for 28 included studies, the synthesis matrix, and the PRISMA flow diagram source."
+type: dataset
+authors:
+  - family-names: "Zatti"
+    given-names: "Alexandre"
+    affiliation: "Programa de Pós-Graduação em Computação Aplicada, Universidade Federal da Fronteira Sul"
+  - family-names: "Feitosa"
+    given-names: "Samuel"
+    affiliation: "Programa de Pós-Graduação em Computação Aplicada, Universidade Federal da Fronteira Sul"
+keywords:
+  - systematic literature review
+  - PRISMA 2020
+  - LLM agents
+  - coding agents
+  - knowledge persistence
+  - memory
+  - SWE-bench
+  - replication package
+license: CC-BY-4.0
+repository-code: "https://github.com/alexandre-zatti/slr-code-agent-memory"
