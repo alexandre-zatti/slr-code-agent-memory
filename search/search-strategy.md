@@ -123,8 +123,9 @@ TITLE-ABS-KEY(
 AND PUBYEAR > 2022
 ```
 
-Raw API response: `raw/results-scopus.json`. BibTeX export:
-`exports/scopus.bib`.
+Executed via the `fetch_scopus.py` script in this directory (requires a
+Scopus API key from the Elsevier Developer Portal). Raw API response:
+`raw/results-scopus.json`. BibTeX export: `exports/scopus.bib`.
 
 ---
 

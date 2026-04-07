@@ -100,7 +100,8 @@ Detailed flow diagram source: [`synthesis/prisma-flow-diagram.tex`](synthesis/pr
 protocol/                 Final protocol (v1.0)
 search/                   Search strategy, scripts, raw exports
     search-strategy.md    Formal strings, PRISMA-S compliance, validation
-    fetch_arxiv.py        arXiv API pagination script
+    fetch_arxiv.py        arXiv API pagination script (stdlib only)
+    fetch_scopus.py       Scopus API pagination script (stdlib only)
     convert_to_bib.py     JSON → BibTeX converter
     raw/                  Raw API responses (Scopus, arXiv, citations)
     exports/              BibTeX exports per source
@@ -138,8 +139,17 @@ index).
 
 ### 2. Re-execute the Scopus search
 
-Scopus requires an API key (institutional access or Elsevier developer
-account). The exact query string is documented in
+```bash
+cd search
+SCOPUS_API_KEY=your_key python fetch_scopus.py --output raw/results-scopus.json
+python convert_to_bib.py scopus raw/results-scopus.json exports/scopus.bib
+```
+
+Scopus requires an API key from the
+[Elsevier Developer Portal](https://dev.elsevier.com/). Institutional
+access (e.g., via CAPES in Brazil) is typically required for full
+abstract content. The default query in `fetch_scopus.py` is the exact
+string documented in
 [`search/search-strategy.md`](search/search-strategy.md) under
 *Search 1: Scopus*. The original raw response is in
 [`search/raw/results-scopus.json`](search/raw/results-scopus.json).
