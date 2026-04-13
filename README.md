@@ -8,7 +8,7 @@ repository contains the protocol, search strategy, raw search results,
 screening decisions, structured extraction data (37 fields × 28 included
 studies), the synthesis matrix, and the PRISMA flow diagram source.
 
-**Authors:** Alexandre Zatti, Samuel Feitosa
+**Author:** Alexandre Zatti
 **Affiliation:** Programa de Pós-Graduação em Computação Aplicada (PPGPCA),
 Universidade Federal da Fronteira Sul (UFFS)
 **License:** [CC-BY-4.0](LICENSE)
@@ -190,7 +190,7 @@ populated with the counts above.
 
 ```bibtex
 @misc{zatti2026slr,
-  author    = {Zatti, Alexandre and Feitosa, Samuel},
+  author    = {Zatti, Alexandre},
   title     = {{Knowledge Persistence Architectures for AI-Based
                 Coding Agents: A Systematic Literature Review
                 Replication Package}},
