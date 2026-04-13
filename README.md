@@ -100,7 +100,7 @@ Detailed flow diagram source: [`synthesis/prisma-flow-diagram.tex`](synthesis/pr
 ## Repository Contents
 
 ```
-protocol/                 Final protocol (v1.0)
+protocol/                 Final protocol (v1.0) + PRISMA 2020 checklist
 search/                   Search strategy, scripts, raw exports
     search-strategy.md    Formal strings, PRISMA-S compliance, validation
     fetch_arxiv.py        arXiv API pagination script (stdlib only)
