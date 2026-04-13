@@ -4,7 +4,7 @@
 
 - **Title:** Knowledge Persistence Architectures for AI-Based Coding Agents:
   A Systematic Literature Review
-- **Authors:** Alexandre Zatti, Samuel Feitosa
+- **Author:** Alexandre Zatti
 - **Affiliation:** Programa de Pós-Graduação em Computação Aplicada (PPGPCA),
   Universidade Federal da Fronteira Sul (UFFS)
 - **Protocol date:** March 2026
