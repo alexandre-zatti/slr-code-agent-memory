@@ -36,14 +36,18 @@ March 2026. After duplicate removal and screening by title, abstract,
 and full text, 28 studies were included for structured extraction of 37
 fields.
 
-**Results.** Experience banks account for 46% of primary studies, with
-the LLM itself acting as read/write controller in 54% of cases and
-hybrid temporal scope in 58%. The 19 studies with controlled comparisons
-report universal gains over the memory-less baseline, with a median of
-6.8 percentage points on SWE-bench Verified and a range of +2.2 to
-+39.0 pp. Despite these gains, 43% of studies omit cost data, 32%
-document memory-induced degradation scenarios, and none compare three
-or more architectures on the same benchmark with the same model.
+**Results.** Experience banks account for 46% of architecture studies,
+with the LLM itself acting as read/write controller in 54% of cases
+and hybrid temporal scope in 58%. Of the 19 architecture studies with
+a controlled no-persistence baseline, 18 report positive aggregate
+gains in their main comparison and one (CTIM-Rover) reports negative
+results across its CTIM configurations; within the SWE-bench Verified
+subset (n = 12, including CTIM-Rover) the median gain is 6.5
+percentage points, with reported gains ranging from −2.0 to +39.0 pp.
+Despite these gains, 43% of the included studies omit cost data, 32%
+document memory-induced adverse or cautionary findings, and none
+compare three or more architectures on the same benchmark with the
+same model.
 
 **Conclusion.** The absence of head-to-head comparisons and the
 underreporting of cost data limit both architectural choice and

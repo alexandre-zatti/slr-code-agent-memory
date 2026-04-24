@@ -149,7 +149,7 @@ Memory shared across agents is virtually unexplored.
 
 | Method | N | Studies |
 |--------|---|---------|
-| benchmark | 21 | Chen, Deng, Deshpande, Dong, Guo, Hosain, Joshi, Li, Lindenbauer, Nadafian, Qian, Shen (TALM), Shen (Structurally), Su, Tablan, Wang (RepoMem), Wang (CodeMEM), Wang (MemGovern), Wong, Wu, Xia, Zhang (AccelOpt), Zhang (DGM) |
+| benchmark | 23 | Chen, Deng, Deshpande, Dong, Guo, Hosain, Joshi, Li, Lindenbauer, Nadafian, Qian, Shen (TALM), Shen (Structurally), Su, Tablan, Wang (RepoMem), Wang (CodeMEM), Wang (MemGovern), Wong, Wu, Xia, Zhang (AccelOpt), Zhang (DGM) |
 | case_study | 3 | Bui, Srivastava, Vasilopoulos |
 | mixed | 1 | Zhou |
 | NA (survey) | 1 | Du |
@@ -158,10 +158,10 @@ Memory shared across agents is virtually unexplored.
 
 | Benchmark | N | Studies |
 |-----------|---|---------|
-| SWE-bench Verified | 14 | Chen, Deng, Li, Lindenbauer, Shen (Structurally), Wang (RepoMem), Wang (MemGovern), Wong, Wu, Xia, Zhang (DGM), Zhou, Guo, Hosain¹ |
+| SWE-bench Verified | 13 | Chen, Deng, Guo, Li, Lindenbauer (subset), Shen (Structurally), Su, Wang (RepoMem), Wang (MemGovern), Wong, Wu, Xia, Zhang (DGM) |
 | SWE-Bench-CL | 1 | Joshi |
 | SWE-Bench Pro | 2 | Wong, Xia |
-| SWE-bench Lite | 2 | Guo, Wu |
+| SWE-bench Lite | 1 | Wu |
 | HumanEval | 1 | Shen (TALM) |
 | BigCodeBench | 1 | Shen (TALM) |
 | ClassEval | 1 | Shen (TALM) |
@@ -177,17 +177,24 @@ Memory shared across agents is virtually unexplored.
 | SRDD | 1 | Qian |
 | GSM8K / AIME / Math-500 / LiveCodeBench | 1 | Hosain |
 
-¹ Hosain (Xolver) focuses on math/code competition, not SE directly.
+**Finding SQ2-A:** SWE-bench Verified is the most frequent benchmark
+(13 of 24 studies with benchmark evaluation, 54%), supplying a partial
+comparability anchor across systems. However, subsets vary (500 vs.
+300 instances), and experimental conditions differ (models,
+temperature, number of attempts).
 
-**Finding SQ2-A:** SWE-bench Verified is the dominant benchmark
-(14/21 studies with benchmark, 67%), creating a natural point of
-comparability. However, subsets vary (500 vs. 300 instances), and
-experimental conditions differ (models, temperature, number of
-attempts).
-
-**Finding SQ2-B:** 7 studies use unique benchmarks not shared by any
-other study (MemTrack, SRDD, NKIBench, DS-1000, KernelBench,
-CodeIF-Bench, MLE/ALE-Bench), limiting direct comparability.
+**Finding SQ2-B:** Evaluation outside SWE-bench Verified is highly
+fragmented: only WebArena and SWE-bench Pro appear in more than one
+study (two studies each); the remaining 32 benchmarks each appear in a
+single study, spanning SWE-bench variants (Lite, Pro, Multilingual,
+live, CL, Ambiguous, Stateful), code-generation benchmarks (HumanEval,
+BigCodeBench, ClassEval, LiveCodeBench v5, CoderEval, CodeIF-Bench,
+DS-1000, SRDD), domain-specific benchmarks (KernelBench, NKIBench,
+PyTorch-Bench, Polyglot, MLE-Bench, ALE-Bench), reasoning and math
+benchmarks (GSM8K, Math-500, AIME 2024, AIME 2025, GPQA), tool-use and
+web benchmarks (OSWorld, Spider2-V, BrowseComp-Plus), safety
+benchmarks (AgentSafetyBench, AgentHarm, Agent Security Bench), and
+the MemTrack benchmark proposal.
 
 ### 2.3 Performance Metrics
 
@@ -200,9 +207,9 @@ CodeIF-Bench, MLE/ALE-Bench), limiting direct comparability.
 | Correctness (LLM judge) | 1 |
 | CL metrics (ACC, F, FT, BWT) | 1 |
 
-**Finding SQ2-C:** Pass@1 / Resolve Rate is the universal metric for
-SE (18/21 studies with benchmark). Continual learning metrics
-(forgetting, backward/forward transfer) are proposed by Joshi
+**Finding SQ2-C:** Pass@1 / Resolve Rate is the dominant metric for
+SE (18 of 24 studies with benchmark evaluation). Continual learning
+metrics (forgetting, backward/forward transfer) are proposed by Joshi
 (SWE-Bench-CL) but have not yet been adopted by other studies.
 
 ### 2.4 Comparability
@@ -210,7 +217,7 @@ SE (18/21 studies with benchmark). Continual learning metrics
 Despite convergence on SWE-bench Verified, direct comparability is
 limited by:
 
-1. **Different models** — the 14 studies use at least 8 distinct LLMs
+1. **Different models** — the 13 studies use at least 8 distinct LLMs
    as backbone (GPT-4o, GPT-5.2, Claude 3.5/4/4.5 Sonnet, DeepSeek-V3,
    Gemini 2.5/3 Pro, Qwen3)
 2. **Different frameworks** — SWE-Agent, OpenHands, custom
@@ -254,25 +261,36 @@ baseline are included. Ordered by absolute gain on the main benchmark.
 | Wu (GCC) | SWE-bench V. | 74.0%² | 80.2% | +6.2pp |
 | Xia (Live-SWE) | SWE-bench V. | 74.2% | 77.4% | +3.2pp |
 | Nadafian (KAPSO) | MLE-Bench | 35.1% | 50.7% | +15.6pp |
+| Lindenbauer (CTIM-Rover) | SWE-bench V. subset | 42.0% | 40.0% | −2.0pp |
 
 ¹ Best result (Gemini 2.5 Pro); varies by LLM (+2.3pp to +6.8pp).
 ² Baseline is Folding Agent (best control with partial memory).
 
-**Finding SQ3-A:** All 19 studies with a controlled comparison report
-positive gains from memory persistence. Magnitude varies from +2.2pp
-(SWE-Exp) to +39.0pp (GBT), with a median of +6.8pp on SWE-bench
-Verified (recomputed over the 11 SWE-bench V. entries in the
-performance table).
+**Finding SQ3-A:** Controlled evidence is mostly positive but not
+uniformly so: 18 of the 19 studies with a controlled comparison
+report positive aggregate gains in their main comparison, while
+CTIM-Rover reports negative results across its CTIM configurations
+(best configuration −2.0pp relative to the AutoCodeRover baseline).
+Magnitude ranges from −2.0pp (CTIM-Rover) to +39.0pp (GBT). Within
+the SWE-bench Verified subset (n = 12, including CTIM-Rover), the
+median gain is +6.5pp; across the 18 comparable percentage-point
+comparisons the median is +7.8pp.
 
 **Finding SQ3-B:** The largest gains (>+10pp) occur in systems that
 start from weaker baselines (Li: 34.6%, Zhang DGM: 20.0%, Su: 12.4%).
 Where baselines are already strong (>65%), marginal gains are smaller
 (+2–9pp), suggesting diminishing returns.
 
-**Finding SQ3-C:** Gains are consistent across LLMs — Shen
-(Structurally) demonstrates +4.7pp average across 4 different LLMs,
-and Wang (MemGovern) reports +4.65pp average across 7 LLMs.
-Persistence improves performance regardless of the backbone model.
+**Finding SQ3-C:** Cross-LLM effects are configuration-dependent.
+Multi-LLM studies report average gains — Shen (Structurally) +4.7pp
+across 4 LLMs, Wang (MemGovern) +4.65pp across 7 LLMs for its
+governed full system — but within-study ablations show inversions:
+Live-SWE-Agent degrades GPT-5-Nano from 44.0% to 14.0%; TALM reports
+that memory hurts HumanEval with both GPT-4o-mini and GPT-4o;
+MemGovern's raw-experience standard-RAG variant decreases
+Qwen3-Coder from 48.0% to 46.8%. The evidence supports model- and
+configuration-dependent persistence effects rather than a uniform
+cross-LLM benefit.
 
 ### 3.2 Studies without Controlled Comparison
 
@@ -292,16 +310,20 @@ Persistence improves performance regardless of the backbone model.
 
 | Level | N | Studies |
 |-------|---|---------|
-| `yes_detailed` | 6 | Chen, Guo, Wang (MemGovern), Wu, Xia, Zhang (AccelOpt), Zhou |
-| `yes_partial` | 8 | Dong, Hosain, Li, Shen (TALM), Su, Wang (RepoMem), Wang (CodeMEM), Wong |
-| `no` | 12 | Bui, Deng, Deshpande, Du, Joshi, Lindenbauer, Nadafian¹, Qian, Shen (Structurally), Srivastava, Tablan, Vasilopoulos, Zhang (DGM) |
+| `yes_detailed` | 7 | Chen, Guo, Wang (MemGovern), Wu, Xia, Zhang (AccelOpt), Zhou |
+| `yes_partial` | 9 | Dong, Hosain, Li, Nadafian¹, Shen (TALM), Su, Wang (RepoMem), Wang (CodeMEM), Wong |
+| `no` | 12 | Bui, Deng, Deshpande, Du, Joshi, Lindenbauer, Qian, Shen (Structurally), Srivastava, Tablan, Vasilopoulos, Zhang (DGM) |
 
 ¹ Nadafian reports total cost ($914.8) but does not break it down by
 component.
 
-**Finding SQ4-A:** 57% of studies (16/28) do not report detailed cost
-data, confirming Gap 2. Only 6 studies provide a complete breakdown
-(tokens + monetary cost + comparison against baseline).
+**Finding SQ4-A:** Cost reporting is heterogeneous. Of the 24
+architecture studies, 7 report monetary cost per task with enough
+supporting detail for study-level cost interpretation, 9 report
+partial data (cost or tokens, but not both), and 8 report no cost data
+(33%); adding the four contextual studies raises the count to 12 of
+the 28 included studies (43%) without cost information, confirming
+Gap 2.
 
 ### 4.2 Monetary Cost per Task
 
@@ -338,8 +360,8 @@ data, confirming Gap 2. Only 6 studies provide a complete breakdown
 **Finding SQ4-B:** The cost-memory relationship is bimodal. Systems
 that use memory to *replace* context (EET, GBT, TALM, CodeMEM) reduce
 costs. Systems that *add* context via retrieval (SWE-Exp, MemGovern,
-RepoMem) increase costs marginally (+5–20%), but with proportional
-performance gains.
+RepoMem) increase costs marginally (+5–21%); the corpus does not
+report a formal relationship between the magnitudes of gain and cost.
 
 **Finding SQ4-C:** EET (Guo 2026) demonstrates the best trade-off:
 -31.8% cost with negligible performance loss (-0.2pp maximum), by
@@ -417,17 +439,17 @@ better result.
 
 | Indicator | Value |
 |-----------|-------|
-| Venue type: preprint | 24/28 (86%) |
+| Venue type: preprint | 23/28 (82%) |
 | Venue type: conference | 2/28 (7%) |
-| Venue type: workshop | 2/28 (7%) |
+| Venue type: workshop | 3/28 (11%) |
 | Median quality | 5.0/6 |
-| Quality ≥4/6 | 24/28 (86%) |
+| Quality ≥4/6 | 26/28 (93%) |
 | Quality <3/6 | 2/28 (7%): OpenDev (2.0), Du survey (2.5) |
 
-**Finding T-A:** The field is dominated by preprints (86%),
-indicating early maturity. Only 2 studies were published at a
-conference (Wang RepoMem, Zhang DGM) and 2 at a workshop (Deshpande
-MemTrack, Shen TALM).
+**Finding T-A:** The field is dominated by preprints (82%),
+indicating early maturity. Two studies were published at a conference
+(Wang RepoMem, Zhang DGM) and three at a workshop (Deshpande MemTrack,
+Shen TALM, Lindenbauer CTIM-Rover).
 
 ### Open Source
 
@@ -480,13 +502,14 @@ RepoMem/conference, Zhang DGM/conference):
   improve), Shen TALM (simple-task degradation). Finding SQ5-A
   partially sustained.
 
-**Conclusion S1:** Excluding preprints would eliminate 86% of the
-corpus. The main findings (positive gains, diminishing returns on
-strong baselines, noise-induced degradation) are sustained
-qualitatively by the 4 remaining studies, but with very limited
-evidence. Cost findings (SQ4) and the detailed taxonomy (SQ1) would
-be substantially weakened. **No main conclusion inverts**, but
-confidence would be drastically reduced.
+**Conclusion S1:** Excluding preprints would eliminate 82% of the
+corpus, leaving only the 5 peer-reviewed studies. The main findings
+(positive gains, diminishing returns on strong baselines,
+noise-induced degradation) are sustained qualitatively by the
+remaining studies, but with very limited evidence. Cost findings
+(SQ4) and the detailed taxonomy (SQ1) would be substantially
+weakened. **No main conclusion inverts**, but confidence would be
+drastically reduced.
 
 ### S2 — Excluding Studies with Quality <3/6
 
@@ -519,17 +542,17 @@ evidence).
 | SQ1-C: LLM as controller predominates (54%) | High | 13 studies, direct classification |
 | SQ1-D: Emerging executable substrates | Low | Only 3 studies (GBT, Live-SWE, DGM) |
 | SQ1-E: Dominant hybrid retrieval | High | 11 studies |
-| SQ1-F: Cross-agent sharing unexplored | High | 23/24 studies report `no` |
-| SQ2-A: Dominant SWE-bench Verified | High | 14/21 studies with benchmark |
+| SQ1-F: Cross-agent sharing unexplored | High | 22 of 24 report no sharing proposal; Chen is the only study with controlled evidence, Tablan proposes infrastructure without controlled evaluation |
+| SQ2-A: SWE-bench Verified is the most frequent benchmark | High | 13 of 24 benchmark-evaluated studies |
 | SQ2-D: Gap 1 confirmed (zero head-to-head comparisons) | High | Exhaustive verification of 28 studies |
-| SQ3-A: Universally positive gains | High | 19 controlled comparisons, zero inversions |
+| SQ3-A: Mostly positive controlled evidence, one negative case | High | 18 positive studies, 1 negative (CTIM-Rover) |
 | SQ3-B: Diminishing returns on strong baselines | Moderate | Pattern observed but not formally tested; correlation, not causation |
-| SQ3-C: Consistent gains across LLMs | Moderate | 2 studies with multi-LLM evaluation (Shen Struct. 4 LLMs, MemGovern 7 LLMs) |
-| SQ4-A: 57% do not report detailed cost | High | Direct count |
-| SQ4-B: Bimodal cost-memory relationship | Moderate | 12 studies with cost data, clear pattern but not all report both metrics |
+| SQ3-C: Cross-LLM effects configuration-dependent | Moderate | 2 multi-LLM studies show average gains; ablations and alternative configurations show inversions |
+| SQ4-A: Cost underreported (8/24 architecture; 12/28 full) | High | Direct count; denominator reported separately for architecture corpus and full included corpus |
+| SQ4-B: Two cost patterns | Moderate | Cost/token deltas reported with heterogeneous metrics across within-study comparisons |
 | SQ4-D: Absence of explicit Pareto frontier | High | Exhaustive verification |
-| SQ5-A: 32% report degradation | High | 9 studies with direct evidence |
+| SQ5-A: 32% report adverse or cautionary findings | High | 9 studies with evidence |
 | SQ5-B: Complexity ≠ larger gain | Moderate | Cross-study inference; benchmarks and models differ |
 | SQ5-D: Retrieval calibration is critical | Moderate | 2 studies with direct evidence (Chen k>1, Shen category isolation) |
-| T-A: Field dominated by preprints (86%) | High | Direct count |
+| T-A: Field dominated by preprints (82%) | High | Direct count |
 | T-C: Gap 1 persists | High | Exhaustive verification |
