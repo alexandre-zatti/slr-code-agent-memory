@@ -101,6 +101,9 @@ Detailed flow diagram source: [`synthesis/prisma-flow-diagram.tex`](synthesis/pr
 
 ```
 protocol/                 Final protocol (v1.0) + PRISMA 2020 checklist
+    protocol.md           Full protocol (eligibility, search, screening, extraction)
+    prisma-checklist.md   Filled PRISMA 2020 checklist (27 items)
+    amendments.md         Protocol amendments log (dated entries)
 search/                   Search strategy, scripts, raw exports
     search-strategy.md    Formal strings, PRISMA-S compliance, validation
     fetch_arxiv.py        arXiv API pagination script (stdlib only)
@@ -183,6 +186,19 @@ pdflatex prisma-flow-diagram.tex
 
 Produces a standalone PDF with the flow diagram from Page et al. (2021),
 populated with the counts above.
+
+---
+
+## Protocol Amendments
+
+All changes to the original protocol after the first screening pass are
+recorded, with date and justification, in
+[`protocol/amendments.md`](protocol/amendments.md). The log is the
+authoritative record of editorial drift between this archive and the
+published manuscript; consult it before treating any figure in the
+synthesis artefacts as the canonical count. Amendments are editorial
+unless stated otherwise: corpus membership, PRISMA flow counts,
+eligibility criteria, and the extraction TSV are unchanged.
 
 ---
 
