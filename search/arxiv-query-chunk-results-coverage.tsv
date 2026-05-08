@@ -1,0 +1,25 @@
+query_chunk	status	total_results	fetched_entries	successful_pages	missing_starts	reason
+family_a_coding_agent_memory__chunk01	complete	281	281	3		complete
+family_a_coding_agent_memory__chunk02	complete	63	63	1		complete
+family_a_coding_agent_memory__chunk03	complete	5	5	1		complete
+family_b_generic_agent_memory_se__chunk01	complete	147	147	2		complete
+family_b_generic_agent_memory_se__chunk02	complete	5	5	1		complete
+family_b_generic_agent_memory_se__chunk03	complete	7	7	1		complete
+family_b_generic_agent_memory_se__chunk04	complete	5	5	1		complete
+family_b_generic_agent_memory_se__chunk05	complete	3	3	1		complete
+family_b_generic_agent_memory_se__chunk06	complete	5	5	1		complete
+family_b_generic_agent_memory_se__chunk07	complete	19	19	1		complete
+family_b_generic_agent_memory_se__chunk08	complete	6	6	1		complete
+family_b_generic_agent_memory_se__chunk09	complete	3	3	1		complete
+family_b_generic_agent_memory_se__chunk10	complete	2	2	1		complete
+family_b_generic_agent_memory_se__chunk11	complete	15	15	1		complete
+family_b_generic_agent_memory_se__chunk12	complete	15	15	1		complete
+family_b_generic_agent_memory_se__chunk13	complete	11	11	1		complete
+family_b_generic_agent_memory_se__chunk14	complete	4	4	1		complete
+family_b_generic_agent_memory_se__chunk15	complete	4	4	1		complete
+family_c_strong_memory_se__chunk01	complete	57	57	1		complete
+family_c_strong_memory_se__chunk02	complete	231	231	3		complete
+family_c_strong_memory_se__chunk03	complete	115	115	2		complete
+family_c_strong_memory_se__chunk04	complete	79	79	1		complete
+family_c_strong_memory_se__chunk05	complete	23	23	1		complete
+family_c_strong_memory_se__chunk06	complete	13	13	1		complete

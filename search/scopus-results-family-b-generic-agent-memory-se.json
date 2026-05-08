@@ -1,0 +1,2042 @@
+{
+  "branch": "family_b_generic_agent_memory_se",
+  "query": "(TITLE-ABS-KEY(((\"LLM agent\" OR \"LLM agents\" OR \"LLM-based agent\" OR \"LLM-based agents\" OR \"large language model agent\" OR \"large language model agents\" OR \"language model agent\" OR \"language model agents\" OR \"language agent\" OR \"language agents\" OR \"LLM agentic system\" OR \"LLM agentic systems\" OR \"multi-agent reasoning\" OR \"multi-agent reasoning framework\") AND (\"memory\" OR \"experience\" OR \"knowledge persistence\" OR \"context management\" OR \"long-term memory\" OR \"long term memory\" OR \"episodic memory\" OR \"semantic memory\" OR \"procedural memory\" OR \"knowledge reuse\" OR \"experience reuse\" OR \"continual learning\" OR \"experience replay\" OR \"memory-augmented\" OR \"persistent memory\" OR \"persistent context\" OR \"cross-task\" OR \"cross task\" OR \"reasoning memory\" OR \"experience memory\" OR \"experience learning\" OR \"evolving memory\" OR \"optimization memory\" OR \"experience bank\" OR \"memory bank\" OR \"failure memory\" OR \"trajectory memory\" OR \"skill memory\" OR \"case base\" OR \"case-based\" OR \"experience sharing\" OR \"context reuse\" OR \"self-evolving\" OR \"self evolving\" OR \"context learning\" OR \"context engineering\" OR \"state tracking\" OR \"memory management\" OR \"dynamic memory management\" OR \"adaptive memory\" OR \"context memory\" OR \"session memory\" OR \"repository context\" OR \"forgetting\" OR \"cross-session\" OR \"cross session\" OR \"history-aware\" OR \"history aware\" OR \"experience-driven\" OR \"experience driven\" OR \"learning from experience\" OR \"cross-domain experience\" OR \"self-evolve\" OR \"self-evolves\" OR \"self-evolution\" OR \"self-improving\" OR \"self-improvement\" OR \"continuously evolve\" OR \"open-ended evolution\") AND (\"SWE-bench\" OR \"HumanEval\" OR \"MBPP\" OR \"CodeContests\" OR \"Defects4J\" OR \"software engineering\" OR \"software development\" OR \"repository-level\" OR \"program repair\" OR \"code repair\" OR \"software repair\" OR \"automated program repair\" OR \"repository-level program repair\" OR \"issue resolution\" OR \"code generation\" OR \"program synthesis\" OR \"test generation\" OR \"software testing\" OR \"code optimization\" OR \"coding benchmark\" OR \"programming benchmark\" OR \"software engineering benchmark\" OR \"bug fix\" OR \"bug fixing\" OR \"CodeIF-Bench\" OR \"CoderEval\" OR \"SWE-Bench Pro\" OR \"SWE-Bench Verified\" OR \"code localization\" OR \"patch generation\" OR \"automated debugging\" OR \"LiveCodeBench\" OR \"LiveCodeBench-V5\" OR \"kernel optimization\" OR \"accelerator kernel\" OR \"accelerator kernels\" OR \"AI accelerator\" OR \"AI accelerators\" OR \"NKIBench\" OR \"MetaGPT\" OR \"DataInterpreter\")))) AND PUBYEAR > 2022",
+  "reported_total_results": 32,
+  "fetched_entries": 32,
+  "pages": [
+    {
+      "timestamp_utc": "2026-04-28T17:43:56.405736+00:00",
+      "branch": "family_b_generic_agent_memory_se",
+      "status": 200,
+      "start": 0,
+      "count": 25,
+      "total_results": 32,
+      "fetched_entries": 25,
+      "raw": {
+        "search-results": {
+          "opensearch:totalResults": "32",
+          "opensearch:startIndex": "0",
+          "opensearch:itemsPerPage": "25",
+          "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "(TITLE-ABS-KEY(((\"LLM agent\" OR \"LLM agents\" OR \"LLM-based agent\" OR \"LLM-based agents\" OR \"large language model agent\" OR \"large language model agents\" OR \"language model agent\" OR \"language model agents\" OR \"language agent\" OR \"language agents\" OR \"LLM agentic system\" OR \"LLM agentic systems\" OR \"multi-agent reasoning\" OR \"multi-agent reasoning framework\") AND (\"memory\" OR \"experience\" OR \"knowledge persistence\" OR \"context management\" OR \"long-term memory\" OR \"long term memory\" OR \"episodic memory\" OR \"semantic memory\" OR \"procedural memory\" OR \"knowledge reuse\" OR \"experience reuse\" OR \"continual learning\" OR \"experience replay\" OR \"memory-augmented\" OR \"persistent memory\" OR \"persistent context\" OR \"cross-task\" OR \"cross task\" OR \"reasoning memory\" OR \"experience memory\" OR \"experience learning\" OR \"evolving memory\" OR \"optimization memory\" OR \"experience bank\" OR \"memory bank\" OR \"failure memory\" OR \"trajectory memory\" OR \"skill memory\" OR \"case base\" OR \"case-based\" OR \"experience sharing\" OR \"context reuse\" OR \"self-evolving\" OR \"self evolving\" OR \"context learning\" OR \"context engineering\" OR \"state tracking\" OR \"memory management\" OR \"dynamic memory management\" OR \"adaptive memory\" OR \"context memory\" OR \"session memory\" OR \"repository context\" OR \"forgetting\" OR \"cross-session\" OR \"cross session\" OR \"history-aware\" OR \"history aware\" OR \"experience-driven\" OR \"experience driven\" OR \"learning from experience\" OR \"cross-domain experience\" OR \"self-evolve\" OR \"self-evolves\" OR \"self-evolution\" OR \"self-improving\" OR \"self-improvement\" OR \"continuously evolve\" OR \"open-ended evolution\") AND (\"SWE-bench\" OR \"HumanEval\" OR \"MBPP\" OR \"CodeContests\" OR \"Defects4J\" OR \"software engineering\" OR \"software development\" OR \"repository-level\" OR \"program repair\" OR \"code repair\" OR \"software repair\" OR \"automated program repair\" OR \"repository-level program repair\" OR \"issue resolution\" OR \"code generation\" OR \"program synthesis\" OR \"test generation\" OR \"software testing\" OR \"code optimization\" OR \"coding benchmark\" OR \"programming benchmark\" OR \"software engineering benchmark\" OR \"bug fix\" OR \"bug fixing\" OR \"CodeIF-Bench\" OR \"CoderEval\" OR \"SWE-Bench Pro\" OR \"SWE-Bench Verified\" OR \"code localization\" OR \"patch generation\" OR \"automated debugging\" OR \"LiveCodeBench\" OR \"LiveCodeBench-V5\" OR \"kernel optimization\" OR \"accelerator kernel\" OR \"accelerator kernels\" OR \"AI accelerator\" OR \"AI accelerators\" OR \"NKIBench\" OR \"MetaGPT\" OR \"DataInterpreter\")))) AND PUBYEAR > 2022",
+            "@startPage": "0"
+          },
+          "link": [
+            {
+              "@_fa": "true",
+              "@ref": "self",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "first",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "next",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "last",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=7&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            }
+          ],
+          "entry": [
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105034615643"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105034615643?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105034615643&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105034615643&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "full-text",
+                  "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0957417426009231"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105034615643",
+              "dc:identifier": "SCOPUS_ID:105034615643",
+              "eid": "2-s2.0-105034615643",
+              "dc:title": "Self-improving multi-agent framework for zero-shot multimodal information extraction",
+              "dc:creator": "Situ R.",
+              "prism:publicationName": "Expert Systems with Applications",
+              "prism:issn": "09574174",
+              "prism:volume": "318",
+              "prism:pageRange": null,
+              "prism:coverDate": "2026-07-01",
+              "prism:coverDisplayDate": "1 July 2026",
+              "prism:doi": "10.1016/j.eswa.2026.132010",
+              "pii": "S0957417426009231",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "South China University of Technology",
+                  "affiliation-city": "Guangzhou",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Journal",
+              "subtype": "ar",
+              "subtypeDescription": "Article",
+              "article-number": "132010",
+              "source-id": "24201",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035619540"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035619540?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035619540&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035619540&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035619540",
+              "dc:identifier": "SCOPUS_ID:105035619540",
+              "eid": "2-s2.0-105035619540",
+              "dc:title": "Context Engineering for Agentic Data Science",
+              "dc:creator": "Roy R.S.",
+              "prism:publicationName": "Lecture Notes in Computer Science",
+              "prism:issn": "03029743",
+              "prism:eIssn": "16113349",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9783032213204]"
+                }
+              ],
+              "prism:volume": "16486 LNCS",
+              "prism:pageRange": "200-205",
+              "prism:coverDate": "2026-01-01",
+              "prism:coverDisplayDate": "2026",
+              "prism:doi": "10.1007/978-3-032-21321-1_29",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Fraunhofer Institute for Integrated Circuits IIS",
+                  "affiliation-city": "Erlangen",
+                  "affiliation-country": "Germany"
+                }
+              ],
+              "prism:aggregationType": "Book Series",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "25674",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013754802"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013754802?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013754802&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105013754802&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105013754802",
+              "dc:identifier": "SCOPUS_ID:105013754802",
+              "eid": "2-s2.0-105013754802",
+              "dc:title": "GeoCogent: an LLM-based agent for geospatial code generation",
+              "dc:creator": "Hou S.",
+              "prism:publicationName": "International Journal of Geographical Information Science",
+              "prism:issn": "13658816",
+              "prism:eIssn": "13658824",
+              "prism:volume": "40",
+              "prism:issueIdentifier": "4",
+              "prism:pageRange": "1073-1106",
+              "prism:coverDate": "2026-01-01",
+              "prism:coverDisplayDate": "2026",
+              "prism:doi": "10.1080/13658816.2025.2549460",
+              "citedby-count": "4",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Wuhan University",
+                  "affiliation-city": "Wuhan",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Journal",
+              "subtype": "ar",
+              "subtypeDescription": "Article",
+              "source-id": "28040",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035586632"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035586632?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035586632&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035586632&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035586632",
+              "dc:identifier": "SCOPUS_ID:105035586632",
+              "eid": "2-s2.0-105035586632",
+              "dc:title": "Perfecting AI Agent Frameworks through Unified Design Principles",
+              "dc:creator": "Lopez S.",
+              "prism:publicationName": "International Conference on Agents and Artificial Intelligence",
+              "prism:issn": "21843589",
+              "prism:eIssn": "2184433X",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9789897587962]"
+                }
+              ],
+              "prism:volume": "1",
+              "prism:pageRange": "116-130",
+              "prism:coverDate": "2026-01-01",
+              "prism:coverDisplayDate": "2026",
+              "prism:doi": "10.5220/0014422300004052",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Kadmos Technologies GmbH",
+                  "affiliation-city": null,
+                  "affiliation-country": "Germany"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101194368",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035358855"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035358855?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035358855&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035358855&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035358855",
+              "dc:identifier": "SCOPUS_ID:105035358855",
+              "eid": "2-s2.0-105035358855",
+              "dc:title": "AI as Game Designer: Achieving Optimal Level Balance Through LLM-Based System",
+              "dc:creator": "Huang Y.",
+              "prism:publicationName": "Lecture Notes in Computer Science",
+              "prism:issn": "03029743",
+              "prism:eIssn": "16113349",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9789819571437]"
+                }
+              ],
+              "prism:volume": "16433 LNCS",
+              "prism:pageRange": "173-182",
+              "prism:coverDate": "2026-01-01",
+              "prism:coverDisplayDate": "2026",
+              "prism:doi": "10.1007/978-981-95-7144-4_15",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "The University of Hong Kong",
+                  "affiliation-city": "Hong Kong",
+                  "affiliation-country": "Hong Kong"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "NetEase Fuxi Lab",
+                  "affiliation-city": "Hangzhou",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Book Series",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "25674",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105023430485"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105023430485?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105023430485&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105023430485&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105023430485",
+              "dc:identifier": "SCOPUS_ID:105023430485",
+              "eid": "2-s2.0-105023430485",
+              "dc:title": "An Interactive Agentic HPC Tutor for Lesson Planning, Teaching, and Assessment",
+              "dc:creator": "Pautsch E.",
+              "prism:publicationName": "Proceedings of 2025 Workshops of the International Conference on High Performance Computing Network Storage and Analysis Sc 2025 Workshops",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798400718717]"
+                }
+              ],
+              "prism:pageRange": "367-375",
+              "prism:coverDate": "2025-11-15",
+              "prism:coverDisplayDate": "15 November 2025",
+              "prism:doi": "10.1145/3731599.3767386",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Argonne National Laboratory",
+                  "affiliation-city": "Lemont",
+                  "affiliation-country": "United States"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "Loyola University Chicago",
+                  "affiliation-city": "Chicago",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101365662",
+              "openaccess": "1",
+              "openaccessFlag": true,
+              "freetoread": {
+                "value": [
+                  {
+                    "$": "all"
+                  },
+                  {
+                    "$": "publisherfullgold"
+                  }
+                ]
+              },
+              "freetoreadLabel": {
+                "value": [
+                  {
+                    "$": "All Open Access"
+                  },
+                  {
+                    "$": "Gold"
+                  }
+                ]
+              }
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105022976558"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105022976558?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022976558&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105022976558&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105022976558",
+              "dc:identifier": "SCOPUS_ID:105022976558",
+              "eid": "2-s2.0-105022976558",
+              "dc:title": "An LLM Framework for Inferring Household Energy Consumption Through Behaviour Simulation",
+              "dc:creator": "Chetty S.",
+              "prism:publicationName": "Buildsys 2025 Proceedings of the 2025 the 12th ACM International Conference on Systems for Energy Efficient Buildings Cities and Transportation",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798400719455]"
+                }
+              ],
+              "prism:pageRange": "234-237",
+              "prism:coverDate": "2025-11-11",
+              "prism:coverDisplayDate": "11 November 2025",
+              "prism:doi": "10.1145/3736425.3770093",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Monash University",
+                  "affiliation-city": "Melbourne",
+                  "affiliation-country": "Australia"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101364189",
+              "openaccess": "1",
+              "openaccessFlag": true,
+              "freetoread": {
+                "value": [
+                  {
+                    "$": "all"
+                  },
+                  {
+                    "$": "publisherfullgold"
+                  }
+                ]
+              },
+              "freetoreadLabel": {
+                "value": [
+                  {
+                    "$": "All Open Access"
+                  },
+                  {
+                    "$": "Gold"
+                  }
+                ]
+              }
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012856499"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012856499?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012856499&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105012856499&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105012856499",
+              "dc:identifier": "SCOPUS_ID:105012856499",
+              "eid": "2-s2.0-105012856499",
+              "dc:title": "Agents in software engineering: survey, landscape, and vision",
+              "dc:creator": "Wang Y.",
+              "prism:publicationName": "Automated Software Engineering",
+              "prism:issn": "09288910",
+              "prism:eIssn": "15737535",
+              "prism:volume": "32",
+              "prism:issueIdentifier": "2",
+              "prism:pageRange": null,
+              "prism:coverDate": "2025-11-01",
+              "prism:coverDisplayDate": "November 2025",
+              "prism:doi": "10.1007/s10515-025-00544-2",
+              "citedby-count": "5",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Sun Yat-Sen University",
+                  "affiliation-city": "Guangzhou",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Journal",
+              "subtype": "ar",
+              "subtypeDescription": "Article",
+              "article-number": "70",
+              "source-id": "24145",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105017008340"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105017008340?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017008340&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105017008340&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "full-text",
+                  "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S259011842500053X"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105017008340",
+              "dc:identifier": "SCOPUS_ID:105017008340",
+              "eid": "2-s2.0-105017008340",
+              "dc:title": "Toward efficient vibe coding: An LLM-based agent for low-code software development",
+              "dc:creator": "Malamas N.",
+              "prism:publicationName": "Journal of Computer Languages",
+              "prism:issn": "26659182",
+              "prism:eIssn": "25901184",
+              "prism:volume": "85",
+              "prism:pageRange": null,
+              "prism:coverDate": "2025-11-01",
+              "prism:coverDisplayDate": "November 2025",
+              "prism:doi": "10.1016/j.cola.2025.101367",
+              "pii": "S259011842500053X",
+              "citedby-count": "1",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Gnomon Informatics S.A.",
+                  "affiliation-city": "Thessaloniki",
+                  "affiliation-country": "Greece"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "School of Electrical and Computer Engineering AUTH",
+                  "affiliation-city": "Thessaloniki",
+                  "affiliation-country": "Greece"
+                }
+              ],
+              "prism:aggregationType": "Journal",
+              "subtype": "ar",
+              "subtypeDescription": "Article",
+              "article-number": "101367",
+              "source-id": "21100904890",
+              "openaccess": "1",
+              "openaccessFlag": true,
+              "freetoread": {
+                "value": [
+                  {
+                    "$": "all"
+                  },
+                  {
+                    "$": "publisherhybridgold"
+                  }
+                ]
+              },
+              "freetoreadLabel": {
+                "value": [
+                  {
+                    "$": "All Open Access"
+                  },
+                  {
+                    "$": "Hybrid Gold"
+                  }
+                ]
+              }
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013961463"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013961463?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013961463&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105013961463&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105013961463",
+              "dc:identifier": "SCOPUS_ID:105013961463",
+              "eid": "2-s2.0-105013961463",
+              "dc:title": "ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps",
+              "dc:creator": "Kong Q.",
+              "prism:publicationName": "Proceedings of the ACM SIGSOFT Symposium on the Foundations of Software Engineering",
+              "prism:issn": "15397521",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798400712760]"
+                }
+              ],
+              "prism:pageRange": "174-179",
+              "prism:coverDate": "2025-07-28",
+              "prism:coverDisplayDate": "28 July 2025",
+              "prism:doi": "10.1145/3696630.3728543",
+              "citedby-count": "2",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "East China Normal University",
+                  "affiliation-city": "Shanghai",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101226476",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010337757"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010337757?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010337757&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105010337757&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105010337757",
+              "dc:identifier": "SCOPUS_ID:105010337757",
+              "eid": "2-s2.0-105010337757",
+              "dc:title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+              "dc:creator": "Bouzenia I.",
+              "prism:publicationName": "Proceedings International Conference on Software Engineering",
+              "prism:issn": "02705257",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331505691]"
+                }
+              ],
+              "prism:pageRange": "2188-2200",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/ICSE55347.2025.00157",
+              "citedby-count": "25",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Universität Stuttgart",
+                  "affiliation-city": "Stuttgart",
+                  "affiliation-country": "Germany"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "19242",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010280548"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010280548?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010280548&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105010280548&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105010280548",
+              "dc:identifier": "SCOPUS_ID:105010280548",
+              "eid": "2-s2.0-105010280548",
+              "dc:title": "ENHANCING LANGUAGE MODEL AGENTS USING DIVERSITY OF THOUGHTS",
+              "dc:creator": "Lingam V.",
+              "prism:publicationName": "13th International Conference on Learning Representations Iclr 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331320850]"
+                }
+              ],
+              "prism:pageRange": "102519-102537",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "AWS AI Labs",
+                  "affiliation-city": "Ann Arbor",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101307567",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105023561704"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105023561704?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105023561704&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105023561704&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105023561704",
+              "dc:identifier": "SCOPUS_ID:105023561704",
+              "eid": "2-s2.0-105023561704",
+              "dc:title": "REPOAUDIT: An Autonomous LLM-Agent for Repository-Level Code Auditing",
+              "dc:creator": "Guo J.",
+              "prism:publicationName": "Proceedings of Machine Learning Research",
+              "prism:eIssn": "26403498",
+              "prism:volume": "267",
+              "prism:pageRange": "21083-21100",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Department of Computer Science",
+                  "affiliation-city": "West Lafayette",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101153015",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105015667382"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105015667382?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015667382&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105015667382&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105015667382",
+              "dc:identifier": "SCOPUS_ID:105015667382",
+              "eid": "2-s2.0-105015667382",
+              "dc:title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+              "dc:creator": "Allam A.",
+              "prism:publicationName": "Proceedings 2025 IEEE International Conference on Llm Aided Design Iclad 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331525972]"
+                }
+              ],
+              "prism:pageRange": "23-29",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/ICLAD65226.2025.00033",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "School of Sciences and Engineering",
+                  "affiliation-city": "New Cairo",
+                  "affiliation-country": "Egypt"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101330159",
+              "openaccess": "2",
+              "openaccessFlag": false,
+              "freetoread": {
+                "value": [
+                  {
+                    "$": "all"
+                  },
+                  {
+                    "$": "repository"
+                  },
+                  {
+                    "$": "repositoryam"
+                  }
+                ]
+              },
+              "freetoreadLabel": {
+                "value": [
+                  {
+                    "$": "All Open Access"
+                  },
+                  {
+                    "$": "Green"
+                  }
+                ]
+              }
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009458305"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009458305?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009458305&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009458305&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009458305",
+              "dc:identifier": "SCOPUS_ID:105009458305",
+              "eid": "2-s2.0-105009458305",
+              "dc:title": "SALLMA: A Software Architecture for LLM-Based Multi-Agent Systems",
+              "dc:creator": "Becattini M.",
+              "prism:publicationName": "Proceedings 2025 IEEE ACM International Workshop on New Trends in Software Architecture Satrends 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331525873]"
+                }
+              ],
+              "prism:pageRange": "5-8",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/SATrends66715.2025.00006",
+              "citedby-count": "2",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Università degli Studi di Firenze",
+                  "affiliation-city": "Florence",
+                  "affiliation-country": "Italy"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101304618",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105026654103"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105026654103?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105026654103&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105026654103&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105026654103",
+              "dc:identifier": "SCOPUS_ID:105026654103",
+              "eid": "2-s2.0-105026654103",
+              "dc:title": "PiML: Automated Machine Learning Workflow Optimization using LLM Agents",
+              "dc:creator": "Chopde A.",
+              "prism:publicationName": "Proceedings of Machine Learning Research",
+              "prism:eIssn": "26403498",
+              "prism:volume": "293",
+              "prism:pageRange": null,
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Fractal AI Research",
+                  "affiliation-city": "Mumbai",
+                  "affiliation-country": "India"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101153015",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009588397"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009588397?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009588397&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009588397&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009588397",
+              "dc:identifier": "SCOPUS_ID:105009588397",
+              "eid": "2-s2.0-105009588397",
+              "dc:title": "Developing Multi-Agent LLM Applications Through Continuous Human-LLM Co-Programming",
+              "dc:creator": "Song H.",
+              "prism:publicationName": "Proceedings 2025 IEEE ACM 4th International Conference on AI Engineering Software Engineering for AI Cain 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331502195]"
+                }
+              ],
+              "prism:pageRange": "42-47",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/CAIN66642.2025.00013",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "SINTEF Digital",
+                  "affiliation-city": "Trondheim",
+                  "affiliation-country": "Norway"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101304979",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035194797"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035194797?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035194797&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035194797&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035194797",
+              "dc:identifier": "SCOPUS_ID:105035194797",
+              "eid": "2-s2.0-105035194797",
+              "dc:title": "Neuro-Symbolic Compliance: Integrating LLMS and SMT Solvers for Automated Financial Legal Analysis",
+              "dc:creator": "Hsia Y.S.",
+              "prism:publicationName": "Proceedings 2025 2nd IEEE ACM International Conference on AI Powered Software Aiware 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331582692]"
+                }
+              ],
+              "prism:pageRange": "19-28",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/AIware69974.2025.00010",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "National Chengchi University",
+                  "affiliation-city": "Taipei",
+                  "affiliation-country": "Taiwan"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101437546",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010224349"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010224349?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010224349&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105010224349&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105010224349",
+              "dc:identifier": "SCOPUS_ID:105010224349",
+              "eid": "2-s2.0-105010224349",
+              "dc:title": "LEARN-BY-INTERACT: A DATA-CENTRIC FRAMEWORK FOR SELF-ADAPTIVE AGENTS IN REALISTIC ENVIRONMENTS",
+              "dc:creator": "Su H.",
+              "prism:publicationName": "13th International Conference on Learning Representations Iclr 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331320850]"
+                }
+              ],
+              "prism:pageRange": "6556-6609",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "citedby-count": "1",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "The University of Hong Kong",
+                  "affiliation-city": "Hong Kong",
+                  "affiliation-country": "Hong Kong"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "Google LLC",
+                  "affiliation-city": "Mountain View",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101307567",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009822872"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009822872?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009822872&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009822872&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009822872",
+              "dc:identifier": "SCOPUS_ID:105009822872",
+              "eid": "2-s2.0-105009822872",
+              "dc:title": "Context Adaptive Memory-Efficient LLM Inference for Edge Multi-Agent Systems",
+              "dc:creator": "Mohammed H.",
+              "prism:publicationName": "Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems Aamas",
+              "prism:issn": "15488403",
+              "prism:eIssn": "15582914",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798400714269]"
+                }
+              ],
+              "prism:pageRange": "2678-2680",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Samsung Research America",
+                  "affiliation-city": "Mountain View",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21100310020",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105034676562"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105034676562?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105034676562&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105034676562&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105034676562",
+              "dc:identifier": "SCOPUS_ID:105034676562",
+              "eid": "2-s2.0-105034676562",
+              "dc:title": "PAT-Agent: Autoformalization for Model Checking",
+              "dc:creator": "Zuo X.",
+              "prism:publicationName": "Proceedings 2025 40th IEEE ACM International Conference on Automated Software Engineering Ase 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798350357332]"
+                }
+              ],
+              "prism:pageRange": "2122-2133",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/ASE63991.2025.00176",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "National University of Singapore",
+                  "affiliation-city": "Singapore City",
+                  "affiliation-country": "Singapore"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101434149",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105014241734"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105014241734?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014241734&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105014241734&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105014241734",
+              "dc:identifier": "SCOPUS_ID:105014241734",
+              "eid": "2-s2.0-105014241734",
+              "dc:title": "AnalogXpert: Automating Analog Topology Synthesis by Incorporating Circuit Design Expertise into Large Language Models",
+              "dc:creator": "Zhang H.",
+              "prism:publicationName": "2025 International Symposium of Electronics Design Automation Iseda 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331536961]"
+                }
+              ],
+              "prism:pageRange": "772-777",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/ISEDA65950.2025.11100627",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Peking University",
+                  "affiliation-city": "Beijing",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101323218",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009458915"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009458915?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009458915&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009458915&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009458915",
+              "dc:identifier": "SCOPUS_ID:105009458915",
+              "eid": "2-s2.0-105009458915",
+              "dc:title": "Automated Bug Discovery in Cloud Infrastructure-as-Code Updates with LLM Agents",
+              "dc:creator": "Xiang Y.",
+              "prism:publicationName": "Proceedings 2025 IEEE ACM International Workshop on Cloud Intelligence and Aiops Aiops 2025",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331526382]"
+                }
+              ],
+              "prism:pageRange": "20-25",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/AIOps66738.2025.00011",
+              "citedby-count": "1",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "University of Michigan, Ann Arbor",
+                  "affiliation-city": "Ann Arbor",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101304616",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105032512043"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/105032512043?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105032512043&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105032512043&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105032512043",
+              "dc:identifier": "SCOPUS_ID:105032512043",
+              "eid": "2-s2.0-105032512043",
+              "dc:title": "MALLS: Multi-Agent LLMs for Synthetic Hardware Vulnerability Generation and Detection",
+              "dc:creator": "Talukdar J.",
+              "prism:publicationName": "Proceedings IEEE International Conference on Computer Design VLSI in Computers and Processors",
+              "prism:issn": "10636404",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798331503468]"
+                }
+              ],
+              "prism:pageRange": "782-789",
+              "prism:coverDate": "2025-01-01",
+              "prism:coverDisplayDate": "2025",
+              "prism:doi": "10.1109/ICCD65941.2025.00116",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Ira A. Fulton Schools of Engineering",
+                  "affiliation-city": "Tempe",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "26669",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217854479"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217854479?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217854479&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217854479&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217854479",
+              "dc:identifier": "SCOPUS_ID:85217854479",
+              "eid": "2-s2.0-85217854479",
+              "dc:title": "Try-Then-Eval: Equipping an LLM-based Agent with a Two-Phase Mechanism to Solve Computer Tasks",
+              "dc:creator": "Cao D.",
+              "prism:publicationName": "Conference Proceedings IEEE International Conference on Systems Man and Cybernetics",
+              "prism:issn": "1062922X",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9781665410205]"
+                }
+              ],
+              "prism:pageRange": "1224-1229",
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "prism:doi": "10.1109/SMC54092.2024.10831260",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Viet Nam National University Ho Chi Minh City",
+                  "affiliation-city": "Ho Chi Minh City",
+                  "affiliation-country": "Viet Nam"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "University of Science, Viet Nam National University Ho Chi Minh City",
+                  "affiliation-city": "Ho Chi Minh City",
+                  "affiliation-country": "Viet Nam"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "Katalon Inc.",
+                  "affiliation-city": "Ho Chi Minh City",
+                  "affiliation-country": "Viet Nam"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "145097",
+              "openaccess": "0",
+              "openaccessFlag": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-04-28T17:43:59.364167+00:00",
+      "branch": "family_b_generic_agent_memory_se",
+      "status": 200,
+      "start": 25,
+      "count": 25,
+      "total_results": 32,
+      "fetched_entries": 7,
+      "raw": {
+        "search-results": {
+          "opensearch:totalResults": "32",
+          "opensearch:startIndex": "25",
+          "opensearch:itemsPerPage": "25",
+          "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "(TITLE-ABS-KEY(((\"LLM agent\" OR \"LLM agents\" OR \"LLM-based agent\" OR \"LLM-based agents\" OR \"large language model agent\" OR \"large language model agents\" OR \"language model agent\" OR \"language model agents\" OR \"language agent\" OR \"language agents\" OR \"LLM agentic system\" OR \"LLM agentic systems\" OR \"multi-agent reasoning\" OR \"multi-agent reasoning framework\") AND (\"memory\" OR \"experience\" OR \"knowledge persistence\" OR \"context management\" OR \"long-term memory\" OR \"long term memory\" OR \"episodic memory\" OR \"semantic memory\" OR \"procedural memory\" OR \"knowledge reuse\" OR \"experience reuse\" OR \"continual learning\" OR \"experience replay\" OR \"memory-augmented\" OR \"persistent memory\" OR \"persistent context\" OR \"cross-task\" OR \"cross task\" OR \"reasoning memory\" OR \"experience memory\" OR \"experience learning\" OR \"evolving memory\" OR \"optimization memory\" OR \"experience bank\" OR \"memory bank\" OR \"failure memory\" OR \"trajectory memory\" OR \"skill memory\" OR \"case base\" OR \"case-based\" OR \"experience sharing\" OR \"context reuse\" OR \"self-evolving\" OR \"self evolving\" OR \"context learning\" OR \"context engineering\" OR \"state tracking\" OR \"memory management\" OR \"dynamic memory management\" OR \"adaptive memory\" OR \"context memory\" OR \"session memory\" OR \"repository context\" OR \"forgetting\" OR \"cross-session\" OR \"cross session\" OR \"history-aware\" OR \"history aware\" OR \"experience-driven\" OR \"experience driven\" OR \"learning from experience\" OR \"cross-domain experience\" OR \"self-evolve\" OR \"self-evolves\" OR \"self-evolution\" OR \"self-improving\" OR \"self-improvement\" OR \"continuously evolve\" OR \"open-ended evolution\") AND (\"SWE-bench\" OR \"HumanEval\" OR \"MBPP\" OR \"CodeContests\" OR \"Defects4J\" OR \"software engineering\" OR \"software development\" OR \"repository-level\" OR \"program repair\" OR \"code repair\" OR \"software repair\" OR \"automated program repair\" OR \"repository-level program repair\" OR \"issue resolution\" OR \"code generation\" OR \"program synthesis\" OR \"test generation\" OR \"software testing\" OR \"code optimization\" OR \"coding benchmark\" OR \"programming benchmark\" OR \"software engineering benchmark\" OR \"bug fix\" OR \"bug fixing\" OR \"CodeIF-Bench\" OR \"CoderEval\" OR \"SWE-Bench Pro\" OR \"SWE-Bench Verified\" OR \"code localization\" OR \"patch generation\" OR \"automated debugging\" OR \"LiveCodeBench\" OR \"LiveCodeBench-V5\" OR \"kernel optimization\" OR \"accelerator kernel\" OR \"accelerator kernels\" OR \"AI accelerator\" OR \"AI accelerators\" OR \"NKIBench\" OR \"MetaGPT\" OR \"DataInterpreter\")))) AND PUBYEAR > 2022",
+            "@startPage": "25"
+          },
+          "link": [
+            {
+              "@_fa": "true",
+              "@ref": "self",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "first",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "prev",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            },
+            {
+              "@_fa": "true",
+              "@ref": "last",
+              "@href": "https://api.elsevier.com/content/search/scopus?start=7&count=25&query=%28TITLE-ABS-KEY%28%28%28%22LLM+agent%22+OR+%22LLM+agents%22+OR+%22LLM-based+agent%22+OR+%22LLM-based+agents%22+OR+%22large+language+model+agent%22+OR+%22large+language+model+agents%22+OR+%22language+model+agent%22+OR+%22language+model+agents%22+OR+%22language+agent%22+OR+%22language+agents%22+OR+%22LLM+agentic+system%22+OR+%22LLM+agentic+systems%22+OR+%22multi-agent+reasoning%22+OR+%22multi-agent+reasoning+framework%22%29+AND+%28%22memory%22+OR+%22experience%22+OR+%22knowledge+persistence%22+OR+%22context+management%22+OR+%22long-term+memory%22+OR+%22long+term+memory%22+OR+%22episodic+memory%22+OR+%22semantic+memory%22+OR+%22procedural+memory%22+OR+%22knowledge+reuse%22+OR+%22experience+reuse%22+OR+%22continual+learning%22+OR+%22experience+replay%22+OR+%22memory-augmented%22+OR+%22persistent+memory%22+OR+%22persistent+context%22+OR+%22cross-task%22+OR+%22cross+task%22+OR+%22reasoning+memory%22+OR+%22experience+memory%22+OR+%22experience+learning%22+OR+%22evolving+memory%22+OR+%22optimization+memory%22+OR+%22experience+bank%22+OR+%22memory+bank%22+OR+%22failure+memory%22+OR+%22trajectory+memory%22+OR+%22skill+memory%22+OR+%22case+base%22+OR+%22case-based%22+OR+%22experience+sharing%22+OR+%22context+reuse%22+OR+%22self-evolving%22+OR+%22self+evolving%22+OR+%22context+learning%22+OR+%22context+engineering%22+OR+%22state+tracking%22+OR+%22memory+management%22+OR+%22dynamic+memory+management%22+OR+%22adaptive+memory%22+OR+%22context+memory%22+OR+%22session+memory%22+OR+%22repository+context%22+OR+%22forgetting%22+OR+%22cross-session%22+OR+%22cross+session%22+OR+%22history-aware%22+OR+%22history+aware%22+OR+%22experience-driven%22+OR+%22experience+driven%22+OR+%22learning+from+experience%22+OR+%22cross-domain+experience%22+OR+%22self-evolve%22+OR+%22self-evolves%22+OR+%22self-evolution%22+OR+%22self-improving%22+OR+%22self-improvement%22+OR+%22continuously+evolve%22+OR+%22open-ended+evolution%22%29+AND+%28%22SWE-bench%22+OR+%22HumanEval%22+OR+%22MBPP%22+OR+%22CodeContests%22+OR+%22Defects4J%22+OR+%22software+engineering%22+OR+%22software+development%22+OR+%22repository-level%22+OR+%22program+repair%22+OR+%22code+repair%22+OR+%22software+repair%22+OR+%22automated+program+repair%22+OR+%22repository-level+program+repair%22+OR+%22issue+resolution%22+OR+%22code+generation%22+OR+%22program+synthesis%22+OR+%22test+generation%22+OR+%22software+testing%22+OR+%22code+optimization%22+OR+%22coding+benchmark%22+OR+%22programming+benchmark%22+OR+%22software+engineering+benchmark%22+OR+%22bug+fix%22+OR+%22bug+fixing%22+OR+%22CodeIF-Bench%22+OR+%22CoderEval%22+OR+%22SWE-Bench+Pro%22+OR+%22SWE-Bench+Verified%22+OR+%22code+localization%22+OR+%22patch+generation%22+OR+%22automated+debugging%22+OR+%22LiveCodeBench%22+OR+%22LiveCodeBench-V5%22+OR+%22kernel+optimization%22+OR+%22accelerator+kernel%22+OR+%22accelerator+kernels%22+OR+%22AI+accelerator%22+OR+%22AI+accelerators%22+OR+%22NKIBench%22+OR+%22MetaGPT%22+OR+%22DataInterpreter%22%29%29%29%29+AND+PUBYEAR+%3E+2022",
+              "@type": "application/json"
+            }
+          ],
+          "entry": [
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203242246"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203242246?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203242246&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85203242246&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85203242246",
+              "dc:identifier": "SCOPUS_ID:85203242246",
+              "eid": "2-s2.0-85203242246",
+              "dc:title": "Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents",
+              "dc:creator": "Yoon J.",
+              "prism:publicationName": "Proceedings 2024 IEEE Conference on Software Testing Verification and Validation Icst 2024",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798350308181]"
+                }
+              ],
+              "prism:pageRange": "129-139",
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "prism:doi": "10.1109/ICST60714.2024.00020",
+              "citedby-count": "19",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Korea Advanced Institute of Science and Technology",
+                  "affiliation-city": "Daejeon",
+                  "affiliation-country": "South Korea"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101248193",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203841699"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203841699?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203841699&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85203841699&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85203841699",
+              "dc:identifier": "SCOPUS_ID:85203841699",
+              "eid": "2-s2.0-85203841699",
+              "dc:title": "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models",
+              "dc:creator": "Zhou A.",
+              "prism:publicationName": "Proceedings of Machine Learning Research",
+              "prism:eIssn": "26403498",
+              "prism:volume": "235",
+              "prism:pageRange": "62138-62160",
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "citedby-count": "31",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "University of Illinois Urbana-Champaign",
+                  "affiliation-city": "Urbana",
+                  "affiliation-country": "United States"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "Lapis Labs",
+                  "affiliation-city": null,
+                  "affiliation-country": null
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101153015",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85197020554"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85197020554?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85197020554&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85197020554&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85197020554",
+              "dc:identifier": "SCOPUS_ID:85197020554",
+              "eid": "2-s2.0-85197020554",
+              "dc:title": "Experiential Co-Learning of Software-Developing Agents",
+              "dc:creator": "Qian C.",
+              "prism:publicationName": "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
+              "prism:issn": "0736587X",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9798891760943]"
+                }
+              ],
+              "prism:volume": "1",
+              "prism:pageRange": "5628-5640",
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "prism:doi": "10.18653/prior/2024.acl-long.305",
+              "citedby-count": "13",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Tsinghua University",
+                  "affiliation-city": "Beijing",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101138302",
+              "openaccess": "1",
+              "openaccessFlag": true,
+              "freetoread": {
+                "value": [
+                  {
+                    "$": "all"
+                  },
+                  {
+                    "$": "publisherfullgold"
+                  }
+                ]
+              },
+              "freetoreadLabel": {
+                "value": [
+                  {
+                    "$": "All Open Access"
+                  },
+                  {
+                    "$": "Gold"
+                  }
+                ]
+              }
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85200607372"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85200607372?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200607372&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85200607372&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85200607372",
+              "dc:identifier": "SCOPUS_ID:85200607372",
+              "eid": "2-s2.0-85200607372",
+              "dc:title": "L2MAC: LARGE LANGUAGE MODEL AUTOMATIC COMPUTER FOR EXTENSIVE CODE GENERATION",
+              "dc:creator": "Holt S.",
+              "prism:publicationName": "12th International Conference on Learning Representations Iclr 2024",
+              "prism:pageRange": null,
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "citedby-count": "17",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "University of Cambridge",
+                  "affiliation-city": "Cambridge",
+                  "affiliation-country": "United Kingdom"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101240864",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203822476"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85203822476?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203822476&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85203822476&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85203822476",
+              "dc:identifier": "SCOPUS_ID:85203822476",
+              "eid": "2-s2.0-85203822476",
+              "dc:title": "DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning",
+              "dc:creator": "Guo S.",
+              "prism:publicationName": "Proceedings of Machine Learning Research",
+              "prism:eIssn": "26403498",
+              "prism:volume": "235",
+              "prism:pageRange": "16813-16848",
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "citedby-count": "6",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Jilin University",
+                  "affiliation-city": "Changchun",
+                  "affiliation-country": "China"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "International Center of Future Science, Jilin University",
+                  "affiliation-city": "Changchun",
+                  "affiliation-country": "China"
+                },
+                {
+                  "@_fa": "true",
+                  "affilname": "School of Artificial Intelligence",
+                  "affiliation-city": "Changchun",
+                  "affiliation-country": "China"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21101153015",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183887388"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183887388?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183887388&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183887388&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183887388",
+              "dc:identifier": "SCOPUS_ID:85183887388",
+              "eid": "2-s2.0-85183887388",
+              "dc:title": "AI Assistant to Improve Experimentation in Software Startups Using Large Language Model and Prompt Engineering",
+              "dc:creator": "Simaremare M.E.S.",
+              "prism:publicationName": "Ceur Workshop Proceedings",
+              "prism:issn": "16130073",
+              "prism:volume": "3621",
+              "prism:pageRange": null,
+              "prism:coverDate": "2024-01-01",
+              "prism:coverDisplayDate": "2024",
+              "citedby-count": "0",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Blekinge Tekniska Högskola",
+                  "affiliation-city": "Karlskrona",
+                  "affiliation-country": "Sweden"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "21100218356",
+              "openaccess": "0",
+              "openaccessFlag": false
+            },
+            {
+              "@_fa": "true",
+              "link": [
+                {
+                  "@_fa": "true",
+                  "@ref": "self",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85185875693"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "author-affiliation",
+                  "@href": "https://api.elsevier.com/content/abstract/scopus_id/85185875693?field=author,affiliation"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus",
+                  "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85185875693&origin=inward"
+                },
+                {
+                  "@_fa": "true",
+                  "@ref": "scopus-citedby",
+                  "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85185875693&origin=inward"
+                }
+              ],
+              "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85185875693",
+              "dc:identifier": "SCOPUS_ID:85185875693",
+              "eid": "2-s2.0-85185875693",
+              "dc:title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+              "dc:creator": "Shinn N.",
+              "prism:publicationName": "Advances in Neural Information Processing Systems",
+              "prism:issn": "10495258",
+              "prism:isbn": [
+                {
+                  "@_fa": "true",
+                  "$": "[9781713899921]"
+                }
+              ],
+              "prism:volume": "36",
+              "prism:pageRange": null,
+              "prism:coverDate": "2023-01-01",
+              "prism:coverDisplayDate": "2023",
+              "citedby-count": "1104",
+              "affiliation": [
+                {
+                  "@_fa": "true",
+                  "affilname": "Northeastern University",
+                  "affiliation-city": "Boston",
+                  "affiliation-country": "United States"
+                }
+              ],
+              "prism:aggregationType": "Conference Proceeding",
+              "subtype": "cp",
+              "subtypeDescription": "Conference Paper",
+              "source-id": "23669",
+              "openaccess": "0",
+              "openaccessFlag": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

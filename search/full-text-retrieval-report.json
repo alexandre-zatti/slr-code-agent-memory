@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-04-28T22:41:20Z",
+  "manifest": "search/full-text-retrieval.tsv",
+  "status_output": "search/full-text-retrieval-status.tsv",
+  "processed": 165,
+  "counts": {
+    "ok": 163,
+    "failed": 2
+  },
+  "source_counts": {
+    "arxiv": 155,
+    "manual_url": 7,
+    "unpaywall": 1,
+    "none": 2
+  },
+  "only_arxiv": false
+}

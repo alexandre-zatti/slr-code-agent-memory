@@ -1,14 +1,15 @@
 {
-  "title": "Knowledge Persistence Architectures for AI-Based Coding Agents: A Systematic Literature Review Replication Package",
-  "description": "<p>Replication package for a systematic literature review (PRISMA 2020) on knowledge persistence architectures for AI-based coding agents. Contains the protocol, search strategy (with formal Boolean strings and PRISMA-S compliance table), raw search API responses (Scopus, arXiv, Semantic Scholar citation chasing), BibTeX exports per source, inclusion/exclusion criteria, title/abstract and full-text screening decisions, the 37-field structured extraction schema, compiled extraction data for 28 included studies, per-paper JSON files, the thematic synthesis matrix, and the PRISMA 2020 flow diagram source.</p>",
+  "title": "Knowledge Persistence Architectures for AI-Based Coding Agents: Replication Package",
+  "description": "<p>Replication package for a systematic literature review (PRISMA 2020) on knowledge persistence architectures for AI-based coding agents. Contains the protocol, final search strategy, saved arXiv and Scopus exports, Semantic Scholar citation-chasing records, deduplication ledger, screening decisions, structured extraction data for 95 included records, synthesis tables, validation scripts, and PRISMA flow source.</p>",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
   "language": "eng",
+  "version": "1.0.0",
   "creators": [
     {
       "name": "Zatti, Alexandre",
-      "affiliation": "Programa de Pós-Graduação em Computação Aplicada, Universidade Federal da Fronteira Sul"
+      "affiliation": "Programa de Pos-Graduacao em Computacao Aplicada, Universidade Federal da Fronteira Sul"
     }
   ],
   "keywords": [

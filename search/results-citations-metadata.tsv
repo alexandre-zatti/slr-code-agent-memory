@@ -1,0 +1,17 @@
+key	value
+timestamp_utc	2026-04-28T17:59:48.693977+00:00
+script	/home/zatti/projects/Masters/revisao-sistematica/search/fetch_semantic_scholar_citations.py
+git_head	5dcc263cd8246ad03fcea0545b45514a354e47a3
+git_dirty	yes
+git_status_entries	181
+seed_set	search/seed-set.tsv
+seed_count	36
+seed_output	search/citation-chasing-seeds.tsv
+page_size	100
+rate_limit_seconds	2.0
+retries	5
+backoff_seconds	60.0
+total_forward_raw	466
+total_backward_raw	1003
+unique_papers	1071
+output	search/results-citations.json

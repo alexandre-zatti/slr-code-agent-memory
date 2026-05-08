@@ -1,0 +1,16 @@
+key	value
+timestamp_utc	2026-04-28T17:43:55.236611+00:00
+script	/home/zatti/projects/Masters/revisao-sistematica/search/fetch_scopus_branches.py
+git_head	5dcc263cd8246ad03fcea0545b45514a354e47a3
+git_dirty	yes
+git_status_entries	168
+branch	family_a_coding_agent_memory
+query	"(TITLE-ABS-KEY(((""AI coding agent"" OR ""AI coding agents"" OR ""software engineering agent"" OR ""software engineering agents"" OR ""SWE agent"" OR ""SWE agents"" OR ""coding agent"" OR ""coding agents"" OR ""code agent"" OR ""code agents"" OR ""programming agent"" OR ""programming agents"" OR ""autonomous coding"" OR ""agentic coding"" OR ""coding assistant"" OR ""code assistant"" OR ""software-developing agent"" OR ""software developing agent"") AND (""memory"" OR ""experience"" OR ""knowledge persistence"" OR ""context management"" OR ""long-term memory"" OR ""long term memory"" OR ""episodic memory"" OR ""semantic memory"" OR ""procedural memory"" OR ""knowledge reuse"" OR ""experience reuse"" OR ""continual learning"" OR ""experience replay"" OR ""memory-augmented"" OR ""persistent memory"" OR ""persistent context"" OR ""cross-task"" OR ""cross task"" OR ""reasoning memory"" OR ""experience memory"" OR ""experience learning"" OR ""evolving memory"" OR ""optimization memory"" OR ""experience bank"" OR ""memory bank"" OR ""failure memory"" OR ""trajectory memory"" OR ""skill memory"" OR ""case base"" OR ""case-based"" OR ""experience sharing"" OR ""context reuse"" OR ""self-evolving"" OR ""self evolving"" OR ""context learning"" OR ""context engineering"" OR ""state tracking"" OR ""memory management"" OR ""dynamic memory management"" OR ""adaptive memory"" OR ""context memory"" OR ""session memory"" OR ""repository context"" OR ""forgetting"" OR ""cross-session"" OR ""cross session"" OR ""history-aware"" OR ""history aware"" OR ""experience-driven"" OR ""experience driven"" OR ""learning from experience"" OR ""cross-domain experience"" OR ""self-evolve"" OR ""self-evolves"" OR ""self-evolution"" OR ""self-improving"" OR ""self-improvement"" OR ""continuously evolve"" OR ""open-ended evolution"")))) AND PUBYEAR > 2022"
+query_chars	1699
+page_size	25
+rate_limit_seconds	2.0
+reported_total_results	53
+fetched_entries	53
+page_count	3
+tsv_output	search/scopus-results-family-a-coding-agent-memory.tsv
+json_output	search/scopus-results-family-a-coding-agent-memory.json

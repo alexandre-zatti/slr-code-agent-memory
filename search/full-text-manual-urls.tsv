@@ -1,0 +1,8 @@
+full_text_id	screening_id	url	source_note
+FT0019	TA00346	https://katalon.com/hubfs/%5BCommunication%5D%20Research%20Paper/2.%20Toward%20Generation%20of%20Test%20Cases%20from%20Task%20Descriptions%20via%20History-aware%20Planning.pdf	Public PDF found after arXiv PDF returned 404; arXiv record is withdrawn.
+FT0071	TA00841	https://www.cs.ucr.edu/~heng/pubs/calico_issta24.pdf	Author-hosted ISSTA 2024 PDF.
+FT0072	TA00849	https://www.wpunj.edu/cosh/macs-scholars-program/assets/Saghiri-Wang_2024.pdf	Author/institution-hosted PDF.
+FT0077	TA00824	https://mdpi-res.com/d_attachment/applsci/applsci-16-01506/article_deploy/applsci-16-01506.pdf	Publisher-hosted open-access PDF.
+FT0078	TA00857	https://etasr.com/index.php/ETASR/article/download/7201/3624	Publisher-hosted open-access PDF found during manual metadata resolution of malformed citation.
+FT0079	TA01595	https://openreview.net/pdf?id=ihcRmUkXHF	OpenReview PDF.
+FT0080	TA01629	https://foci.uw.edu/papers/whitepaper2025-sds.pdf	Public University of Washington white paper PDF found during manual metadata resolution.

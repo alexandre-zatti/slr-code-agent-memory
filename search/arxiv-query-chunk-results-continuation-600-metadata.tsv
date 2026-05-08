@@ -1,0 +1,19 @@
+key	value
+run_started_utc	2026-04-28T16:16:34.048233+00:00
+script	/home/zatti/projects/Masters/revisao-sistematica/search/sample_arxiv_queries.py
+git_head	5dcc263cd8246ad03fcea0545b45514a354e47a3
+git_dirty	yes
+git_status_entries	157
+output	search/arxiv-query-chunk-results-continuation-600.tsv
+chunk_metadata_output	search/arxiv-query-chunk-results-continuation-600-pages.tsv
+submitted_from	2023-01-01
+submitted_to	2026-04-27
+arxiv_categories	(cat:cs.SE OR cat:cs.AI OR cat:cs.CL OR cat:cs.LG)
+max_results_per_chunk	100
+rate_limit_seconds	600.0
+retries	2
+stop_on_429	yes
+max_url_chars	3200
+query_chunks	family_c_strong_memory_se__chunk01;family_c_strong_memory_se__chunk02;family_c_strong_memory_se__chunk03;family_c_strong_memory_se__chunk04;family_c_strong_memory_se__chunk05;family_c_strong_memory_se__chunk06
+logical_families	family_c_strong_memory_se
+url_length_warnings	

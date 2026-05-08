@@ -1,0 +1,16 @@
+key	value
+timestamp_utc	2026-04-28T17:44:03.463735+00:00
+script	/home/zatti/projects/Masters/revisao-sistematica/search/fetch_scopus_branches.py
+git_head	5dcc263cd8246ad03fcea0545b45514a354e47a3
+git_dirty	yes
+git_status_entries	174
+branch	family_c_strong_memory_se
+query	"(TITLE-ABS-KEY(((""episodic memory"" OR ""semantic memory"" OR ""procedural memory"" OR ""long-term memory"" OR ""long term memory"" OR ""persistent memory"" OR ""reasoning memory"" OR ""experience memory"" OR ""experience learning"" OR ""evolving memory"" OR ""optimization memory"" OR ""memory bank"" OR ""failure memory"" OR ""experience bank"" OR ""case base"" OR ""case-based"" OR ""experience sharing"" OR ""context reuse"" OR ""experience reuse"" OR ""cross-task"" OR ""cross task"" OR ""self-evolving"" OR ""self evolving"" OR ""structured memory"" OR ""trajectory memory"" OR ""context learning"" OR ""context engineering"" OR ""context memory"" OR ""session memory"" OR ""repository context"" OR ""cross-session"" OR ""cross session"" OR ""history-aware"" OR ""history aware"" OR ""experience-driven"" OR ""experience driven"" OR ""learning from experience"" OR ""cross-domain experience"" OR ""self-evolve"" OR ""self-evolves"" OR ""self-evolution"" OR ""self-improving"" OR ""self-improvement"" OR ""continuously evolve"" OR ""open-ended evolution"") AND (""SWE-bench"" OR ""Defects4J"" OR ""program repair"" OR ""code repair"" OR ""software repair"" OR ""automated program repair"" OR ""repository-level program repair"" OR ""issue resolution"" OR ""code optimization"" OR ""bug fix"" OR ""bug fixing"" OR ""code localization"" OR ""patch generation"" OR ""automated debugging"" OR ""code translation"" OR ""kernel optimization"" OR ""accelerator kernel"" OR ""accelerator kernels"" OR ""AI accelerator"" OR ""AI accelerators"" OR ""NKIBench"")))) AND PUBYEAR > 2022"
+query_chars	1447
+page_size	25
+rate_limit_seconds	2.0
+reported_total_results	45
+fetched_entries	45
+page_count	2
+tsv_output	search/scopus-results-family-c-strong-memory-se.tsv
+json_output	search/scopus-results-family-c-strong-memory-se.json
