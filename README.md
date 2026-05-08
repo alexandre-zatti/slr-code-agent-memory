@@ -7,7 +7,8 @@ The package contains the protocol, search strategy, saved database exports, cita
 **Affiliation:** Programa de Pos-Graduacao em Computacao Aplicada (PPGPCA), Universidade Federal da Fronteira Sul (UFFS)  
 **License:** [CC-BY-4.0](LICENSE)  
 **Version:** 2.0.0  
-**Zenodo:** DOI pending.
+**Zenodo:** [10.5281/zenodo.20090112](https://doi.org/10.5281/zenodo.20090112)  
+**Zenodo concept DOI:** [10.5281/zenodo.19463131](https://doi.org/10.5281/zenodo.19463131)
 
 ## Summary
 
@@ -94,9 +95,12 @@ Expected results:
 
 ## Citation
 
-The Zenodo DOI is pending.
-After the archive is minted, cite the version-specific Zenodo DOI.
-Until then, cite this repository snapshot as:
+The version-specific Zenodo DOI for this release is
+[10.5281/zenodo.20090112](https://doi.org/10.5281/zenodo.20090112).
+The concept DOI [10.5281/zenodo.19463131](https://doi.org/10.5281/zenodo.19463131)
+resolves to the latest Zenodo version.
+
+Cite this release as:
 
 ```bibtex
 @misc{zatti2026slrreplication,
@@ -105,7 +109,8 @@ Until then, cite this repository snapshot as:
   year      = {2026},
   version   = {2.0.0},
   publisher = {Zenodo},
-  note      = {DOI pending}
+  doi       = {10.5281/zenodo.20090112},
+  url       = {https://doi.org/10.5281/zenodo.20090112}
 }
 ```
 

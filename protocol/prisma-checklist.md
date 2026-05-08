@@ -37,14 +37,12 @@ Status: `[x]` complete | `[~]` partial | `[ ]` absent.
 | 22 | Certainty of evidence is reported. | [x] | `analysis/certainty-sensitivity-summary.md`; manuscript results. |
 | 23a-d | Discussion interprets findings, evidence limitations, review limitations, and implications. | [x] | `manuscript/sections/discussion.tex`. |
 | 24a | Registration status is stated. | [x] | Manuscript method. |
-| 24b | Protocol availability is stated. | [~] | Public DOI pending; use repository path until fresh release is minted. |
+| 24b | Protocol availability is stated. | [x] | Public replication package archived at DOI `10.5281/zenodo.20090112`; concept DOI `10.5281/zenodo.19463131`. |
 | 24c | Protocol amendments are recorded. | [x] | `protocol/amendments.md`. |
 | 25 | Support/funding is stated. | [x] | Manuscript declarations. |
 | 26 | Competing interests are stated. | [x] | Manuscript declarations. |
-| 27 | Data, code, and materials availability is stated. | [~] | Fresh replication package and DOI pending. |
+| 27 | Data, code, and materials availability is stated. | [x] | Replication package version `2.0.0` archived at DOI `10.5281/zenodo.20090112`. |
 
 ## Open Items Before Submission
 
-1. Mint and verify the fresh replication-package DOI.
-2. Update manuscript data-availability text with the DOI.
-3. Recheck line references after the final venue template is selected.
+1. Recheck line references after the final venue template is selected.
