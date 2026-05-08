@@ -6,7 +6,7 @@ The package contains the protocol, search strategy, saved database exports, cita
 **Author:** Alexandre Zatti  
 **Affiliation:** Programa de Pos-Graduacao em Computacao Aplicada (PPGPCA), Universidade Federal da Fronteira Sul (UFFS)  
 **License:** [CC-BY-4.0](LICENSE)  
-**Version:** 1.0.0  
+**Version:** 2.0.0  
 **Zenodo:** DOI pending.
 
 ## Summary
@@ -103,7 +103,7 @@ Until then, cite this repository snapshot as:
   author    = {Zatti, Alexandre},
   title     = {{Knowledge Persistence Architectures for AI-Based Coding Agents: Replication Package}},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {2.0.0},
   publisher = {Zenodo},
   note      = {DOI pending}
 }
