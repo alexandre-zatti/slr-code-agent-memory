@@ -6,8 +6,8 @@ The package contains the protocol, search strategy, saved database exports, cita
 **Author:** Alexandre Zatti  
 **Affiliation:** Programa de Pos-Graduacao em Computacao Aplicada (PPGPCA), Universidade Federal da Fronteira Sul (UFFS)  
 **License:** [CC-BY-4.0](LICENSE)  
-**Version:** 2.0.0  
-**Zenodo:** [10.5281/zenodo.20090112](https://doi.org/10.5281/zenodo.20090112)  
+**Version:** 2.0.1
+**Zenodo:** pending version-specific DOI after GitHub release archival
 **Zenodo concept DOI:** [10.5281/zenodo.19463131](https://doi.org/10.5281/zenodo.19463131)
 
 ## Summary
@@ -95,8 +95,9 @@ Expected results:
 
 ## Citation
 
-The version-specific Zenodo DOI for this release is
-[10.5281/zenodo.20090112](https://doi.org/10.5281/zenodo.20090112).
+This release is intended to be archived by Zenodo from GitHub tag `v2.0.1`.
+After Zenodo processing completes, cite the version-specific DOI assigned to
+`v2.0.1`.
 The concept DOI [10.5281/zenodo.19463131](https://doi.org/10.5281/zenodo.19463131)
 resolves to the latest Zenodo version.
 
@@ -107,10 +108,10 @@ Cite this release as:
   author    = {Zatti, Alexandre},
   title     = {{Knowledge Persistence Architectures for AI-Based Coding Agents: Replication Package}},
   year      = {2026},
-  version   = {2.0.0},
+  version   = {2.0.1},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20090112},
-  url       = {https://doi.org/10.5281/zenodo.20090112}
+  doi       = {10.5281/zenodo.19463131},
+  url       = {https://doi.org/10.5281/zenodo.19463131}
 }
 ```
 

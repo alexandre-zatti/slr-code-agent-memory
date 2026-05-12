@@ -51,7 +51,7 @@ Inclusion criteria:
 - CI2: reports empirical results, a benchmark, a case study, or an evaluated
   tool/framework.
 - CI3: published or posted between 2023 and the final search cutoff.
-- CI4: written in English or Portuguese.
+- CI4: written in English.
 - CI5: peer-reviewed publication or identifiable preprint/technical report.
 
 Exclusion criteria:

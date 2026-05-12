@@ -1,9 +1,9 @@
 # Search Bibliography Coverage
 
-Generated: 2026-05-08T20:06:40+00:00
+Generated: 2026-05-12T13:28:28+00:00
 
 Scope: exact-key coverage for search included-study IDs against
-`manuscript/references/*.bib`.
+`references/*.bib`.
 
 This check does not validate bibliographic metadata quality; it only
 identifies which search included-study keys already exist locally.

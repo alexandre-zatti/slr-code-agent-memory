@@ -1,6 +1,6 @@
 # Screening Criteria
 
-Version 2.0 — updated after the criteria stress test (2026-03-26).
+Version 2.0.1 - updated after the CI4 language-criterion clarification (2026-05-12).
 Changes recorded in `protocol/amendments.md`.
 
 ---
@@ -14,7 +14,7 @@ All criteria must be met.
 | CI1 | Proposes or evaluates a mechanism to persist knowledge or experience across sessions in AI-based coding agents | See the **Detailed CI1 Guide** below. |
 | CI2 | Reports empirical results (experiment, benchmark, case study) OR proposes a tool/framework with systematic evaluation | **Minimum floor:** quantitative evaluation on ≥2 tasks/examples with reported metrics. An N=1 case study with quantitative metrics across multiple sessions is acceptable. A demo without metrics or a single anecdotal example does not qualify. |
 | CI3 | Published between 2023 and 2026 | Publication date or arXiv submission date. The window reflects the field's emergence in 2025, with a margin for precursors (MemGPT, 2023). Pre-2023 papers from citation chasing are excluded by this criterion — not a failure, by design. |
-| CI4 | Written in English or Portuguese | — |
+| CI4 | Written in English | — |
 | CI5 | Peer-reviewed publication (conference, journal) OR preprint with identifiable authors/institutions | Conference, journal, or arXiv with clear affiliation. Papers with <7 pages (excluding references) are classified as "maybe" and the contribution is verified in the full text. |
 
 ## Exclusion Criteria
@@ -114,7 +114,7 @@ Apply in the indicated order. Each question has three possible outcomes:
 ```
 START: Read title + abstract
 │
-├─ Q1. Written in English or Portuguese?
+├─ Q1. Written in English?
 │  NO  → EXCLUDE (CI4)
 │  YES → continue
 │

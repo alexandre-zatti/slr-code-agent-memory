@@ -19,9 +19,19 @@ class Gate:
     def __init__(self) -> None:
         self.checks: list[tuple[str, str, str]] = []
 
+    @staticmethod
+    def _stable_repr(value) -> str:
+        if isinstance(value, set):
+            return repr(sorted(value))
+        if isinstance(value, dict):
+            return repr({key: value[key] for key in sorted(value)})
+        return repr(value)
+
     def expect(self, label: str, actual, expected) -> None:
         status = "PASS" if actual == expected else "FAIL"
-        self.checks.append((status, label, f"actual `{actual}`, expected `{expected}`"))
+        actual_text = self._stable_repr(actual)
+        expected_text = self._stable_repr(expected)
+        self.checks.append((status, label, f"actual `{actual_text}`, expected `{expected_text}`"))
 
     def pass_note(self, label: str, detail: str) -> None:
         self.checks.append(("PASS", label, detail))

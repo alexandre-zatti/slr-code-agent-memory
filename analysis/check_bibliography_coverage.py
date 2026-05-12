@@ -69,6 +69,7 @@ def main() -> int:
     missing_rows = [row for row in output_rows if row["coverage_status"] == "missing"]
     missing_by_role = Counter(row["architecture_denominator_decision"] for row in missing_rows)
     present_rows = [row for row in output_rows if row["coverage_status"] == "present"]
+    bib_scope = f"`{BIB_DIR.relative_to(ROOT).as_posix()}/*.bib`."
 
     lines = [
         "# Search Bibliography Coverage",
@@ -76,7 +77,7 @@ def main() -> int:
         f"Generated: {datetime.now(timezone.utc).isoformat(timespec='seconds')}",
         "",
         "Scope: exact-key coverage for search included-study IDs against",
-        "`manuscript/references/*.bib`.",
+        bib_scope,
         "",
         "This check does not validate bibliographic metadata quality; it only",
         "identifies which search included-study keys already exist locally.",

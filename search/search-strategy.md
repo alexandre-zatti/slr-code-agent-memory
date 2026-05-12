@@ -10,7 +10,7 @@ Status: canonical search documentation for the current corpus.
 - arXiv cutoff: `submittedDate:[202301010000 TO 202604272359]`.
 - arXiv categories: `cs.SE OR cs.AI OR cs.CL OR cs.LG`.
 - Scopus year clause: `PUBYEAR > 2022`.
-- Language eligibility: English or Portuguese at screening.
+- Language eligibility: English at screening.
 
 ## Concept Blocks
 
